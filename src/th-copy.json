@@ -1,0 +1,181 @@
+{
+    "Login":{
+        "account" : "บัญชีผู้ใช้",
+        "username" : "ชื่อผู้ใช้" ,
+        "password" : "รหัสผ่าน" ,
+        "login" : "เข้าสู่ระบบ" ,
+        "contact" : "ติดต่อเรา",
+        "alertTitle" : "ไม่สามารถเข้าสู่ระบบ",
+        "alertMessage" :"โปรดตรวจสอบบัญชี ชื่อผู้ใช้ หรือรหัสผ่านของคุณ",
+        "selectServer" : "เลือก Server" ,
+        "serverTitle" : "เซฟเวอร์" ,
+        "version" : "เวอร์ชั่น" ,
+        "errConTitle" : "การเชื่อมต่อผิดพลาด" ,
+        "errMessage" : "ไม่สามารถเชื่อมต่อระบบได้ในขณะนี้ โปรดลองอีกครั้งภายหลัง",
+        "remember" : "จดจำฉัน ?"
+    },
+    "Menu":{
+        "title" : "เมนู",
+        "map" : "แผนที่" ,
+        "report" : "รายงาน" ,
+        "yearPayment" : "แจ้งยอดชำระค่าบริการรายปี" ,
+        "contact" : "ติดต่อเรา",
+        "manual" : "คู่มือ" ,
+        "news" : "ข่าวสาร" ,
+        "deviceSetting" : "ตั้งค่าอุปกรณ์" ,
+        "setting": "ตั้งค่า" ,
+        "notifications" : "การแจ้งเตือน" ,
+        "logout" : "ออกจากระบบ"
+    },
+    "setting":{
+        "title" : "ตั้งค่า",
+        "profile" : "โปรไฟล์" ,
+        "profileManage" :"จัดการโปรไฟล์ ",
+        "password" : "รหัสผ่าน" ,
+        "passwordChange" : "เปลี่ยนรหัสผ่าน" ,
+        "language" : "ภาษา",
+        "languageChange" : "เปลี่ยนภาษา"
+    },
+    "home":{
+        "title" : "อันดามัน แทร็คกิ้ง จำกัด" ,
+        "segmentAll" : "ทั้งหมด" ,
+        "segmentOnline": "ออนไลน์" ,
+        "segmentOffline" : "ออฟไลน์" ,
+        "carList" : "เลือกรถ" ,
+        "modalPlace" : "ตำแหน่ง" ,
+        "modalDate" : "วันที่",
+        "modalStatusTime" : "เวลาสถานะ",
+        "modalStatus" : "สถานะ",
+        "modalGSM" : "GSM" ,
+        "modalGPS" : "GPS" ,
+        "modalVoltage" : "แรงดันไฟ" ,
+        "modalDriver" : "คนขับ",
+        "closeModal" : "กดปิดหน้าต่าง"
+    },
+    "allReport" :{
+        "title" : "รายงาน" ,
+        "previousRoute" : "เส้นทางย้อนหลัง" ,
+        "previousRouteReport" : "รายงานเส้นทางย้อนหลัง",
+        "carUsage" : "สรุปการใช้รถ" ,
+        "carUsageReport" : "รายงานสรุปการใช้รถ",
+        "pieChart" : "กราฟวงกลม",
+        "pieChartReport" : "รายงานกราฟวงกลม",
+        "lineChart" : "กราฟเส้น",
+        "lineChartReport" : "รายงานกราฟเส้น"
+    },
+    "previousRoute" :{
+        "title" : "เส้นทางย้อนหลัง",
+        "date"  : "วันที่" ,
+        "carID" : "ทะเบียนรถ" , 
+        "carSelect" : "เลือกรถ" ,
+        "speed" : "ความเร็ว" ,
+        "takeTime" : "เวลา" ,
+        "place" : "สถานที่"
+    },
+    "carUsage":{
+        "title" : "รายงานสรุปการใช้รถ" ,
+        "date"  : "วันที่" ,
+        "carID" : "ทะเบียนรถ",
+        "carSelect": "เลือกรถ" ,
+        "dataSummaryDaily" : "สรุปข้อมูลรายวัน" ,
+        "distance" : "ระยะทาง" ,
+        "carStop" : "จอดติดเครื่องยนต์",
+        "carParking" : "จอดนิ่ง",
+        "carRunning" : "เคลื่อนที่",
+        "mostSpeed" : "ความเร็วสูงสุด",
+        "speedLimited": "ความเร็วเกินกำหนด",
+        "driver" : "ผู้ขับ" , 
+        "minute" : "นาที" ,
+        "times" : "ครั้ง"
+     },
+     "yearPayment" :{
+        "title" : "แจ้งยอดค่าชำระบริการรายปี" ,
+        "date" : "วันที่" ,
+        "carID" :  "ทะเบียนรถ",
+        "carSelect" : "เลือกรถ" ,
+        "note" :"หมายเหตุ เลือกไฟล์แนบด้านล่าง",
+        "btnSend" : "ส่ง" ,
+        "alertTitleSuc" : "สำเร็จ",
+        "alertMessageSuc" : "แจ้งยอดค่าชำระบริการรายปีสำเร็จ",
+        "alertTitleFail" : "ไม่สำเร็จ",
+        "alertMessageFail" : "แจ้งยอดค่าชำระบริการรายปีสำเร็จไม่สำเร็จ",
+        "alertOK" : "ตกลง",
+        "Loading" : "กำหลังโหลด....."
+     },
+     "contact":{
+         "title" : "ติดต่อเรา"  ,
+         "name" : "ชื่อผู้ส่ง" ,
+         "phone" : "เบอร์โทรศัพท์" ,
+         "message" : "รายละเอียด" ,
+         "btnSend" : "ส่ง" ,
+         "alertTitle" : "สำเร็จ",
+         "alertMessage" : "ส่งข้อควสามสำเร็จ"
+     },
+     "manual":{
+        "title" : "คู่มือ" 
+    },
+    "news":{
+       "title" : "ข่าวสาร" 
+    },
+    "deviceSetting" : {
+        "title" : "ตั้งค่าอุปกรณ์" ,
+        "carID" : "ทะเบียนรถ",
+        "carSelect" : "เลือกรถ",
+        "name" : "ชื่อ" ,
+        "nameEnter" : "พิมพ์ชื่อ" ,
+        "driver" : "ชื่อผู้ขับขี่" ,
+        "driverEnter" : "พิมพ์ชื่อผู้ขับขี่" ,
+        "phone" :"เบอร์โทรศัพท์",
+        "phoneEnter" :"พิมพ์เบอร์โทรศัพท์",
+        "message" : "ข้อมูลอื่นๆ",
+        "messageEnter" : "ข้อมูลอื่นๆ",
+        "btnSave" : "บันทึก",
+        "alertFailTitle" : "ไม่สำเร็จ" ,
+        "alertFailMessage" : "ไม่สามารถตั้งค่าอุปกรณ์ โปรดระบุข้อมูลให้ครบถ้วน" ,
+        "alertSucTitle" : "สำเร็จ" ,
+        "alertSucMessage" : "ตั้งค่าอุปกรณ์สำเร็จ"
+    },
+    "alert" :{
+        "title" : "การแจ้งเตือน"
+    },
+    "map" : {
+        "place" : "สถานที่" ,
+        "carID" : "ทะเบียนรถ",
+        "status" : "สถานะ",
+        "GSM" : "GSM" , 
+        "GPS" : "GPS" ,
+        "voltage" : "แรงดันไฟ" ,
+        "driver": "ค่าบัตร/คนขับ" ,
+        "lastStatus" : "สถานะล่าสุด",
+        "turnOffTheCar" : "สั่งดับเครื่อง" ,
+        "engineStatus" : "สถานะเครื่องยนต์",
+        "cancel" : "ยกเลิกการดับเครื่องยนต์" ,
+        "other" : "อื่นๆ" ,
+        "selectIcon" : "เลือก Icon",
+        "navigateToCar" : "นำทางไปยังรถ" ,
+        "callToDriver" : "โทรหาคนขับ",
+        "alertEnterPass" : "โปรดกรอกรหัสผ่าน" ,
+        "alertPass" : "พิมพ์รหัสผ่าน"
+    },
+    "profile" :{
+        "title": "โปรไฟล์",
+        "name" : "พิมพ์ชื่อ-นามสกุล",
+        "phone" : "พิมพ์หมายเลขโทรศัพท์",
+        "birthDay" : "พิมพ์วันเกิด",
+        "btnSave": "บันทึกการเปลี่ยนแปลง",
+        "alertTitle" : "สำเร็จ",
+        "alertMessage": "เปลี่ยนแปลงข้อมูลสำเร็จ"
+    }, 
+    "changPassword":{
+        "title": " เปลี่ยนรหัสผ่าน",
+        "presentPass": "รหัสผ่านปัจจุบัน",
+        "newPass": "รหัสผ่านใหม่",
+        "confirmNewPassword" : "รหัสผ่านใหม่อีกครั้ง",
+        "btnSave" : "เปลี่ยนรหัสผ่าน",
+        "alertSucTitle": "สำเร็จ",
+        "alertSucMessage":"เปลี่ยนรหัสผ่านสำเร็จ",
+        "alertFailTitle" : "ไม่สำเร็จ",
+        "alertFailMessage" : "รหัสผ่านไม่ถูกต้อง ตรวจสอบอีกครั้ง",
+        "alertDifferenceMessage" : "รหัสผ่านใหม่แตกต่างกัน ตรวจสอบอีกครั้ง"
+    }
+}  

@@ -1,0 +1,8 @@
+{
+  "name": "andaman-tracking",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react" ,
+  "bundledWebRuntime": true
+}

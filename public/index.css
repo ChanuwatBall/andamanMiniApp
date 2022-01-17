@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'FC_Iconic_Regular';
+    font-weight: 400;
+    src: local('FC_Iconic_Regular'), url('./assets/fonts/FC_Iconic_Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'FC_Iconic_Bold';
+    font-weight: 400;
+    src: local('FC_Iconic_Bold'), url('./assets/fonts/FC_Iconic_Bold.ttf') format('truetype');
+}

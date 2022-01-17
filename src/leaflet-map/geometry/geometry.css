@@ -1,0 +1,311 @@
+.leaflet-container{
+    width: 100% !important;
+    /* min-height: 92.5vh;
+    max-height: 100vh; */
+    height: 100vh ;
+    background-color: rgb(0, 0, 0, 0.1);
+    transition-duration: 300ms; 
+}
+.p-5{
+    padding: 10px;
+}
+.pl{
+    padding-left: 1.5rem;
+}
+.pb{
+    padding-bottom: 1.5rem;
+}
+.row{
+    width: 100%;
+    clear: both;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+.col-11{
+    width: 87.5%;
+    float: left;
+}
+.col-9{
+    width: 75%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-4{
+    width: 33.3%;
+    float: left;
+}
+.col-3{
+    width: 25%;
+    float: left;
+}
+.col-2{
+    width: 15%;
+    float: left;
+}
+.col-1{
+    width: 12.5%;
+    float: left;
+}
+.center-line{
+    background-color: #ccc;
+    height: .2rem;
+}
+
+.button-layer , .button-layer-gray{
+    z-index: 999;
+    position: fixed;
+    background-color: #fcfdfe;
+    padding: .5em;
+    border-radius: 5px;
+    color: #202021;
+    border:1px solid #ccc;
+}
+
+.button-layer-group-geometry{
+    z-index: 999;
+    position: fixed;
+    background-color: #fcfdfe;
+    padding: .5em;
+    border-top-left-radius: 25pt;
+    border-bottom-left-radius: 25pt;
+    color: #134985;
+    right: -.5rem;
+    width: 50pt;
+    height: 35pt;
+    margin-top: 10rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.leaflet-control-attribution.leaflet-control{
+    display: none;
+}
+
+.button-zoom-in-geometry{
+    z-index: 999;
+    position: fixed;
+    background-color: #fcfdfe;
+    padding: .5em;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    color: #134985;
+    left: 1rem;
+    width: 35pt;
+    height: 35pt;
+    margin-top: 10rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-zoom-out-geometry{
+    z-index: 999;
+    position: fixed;
+    background-color: #fcfdfe;
+    padding: .5em;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    color: #134985;
+    left: 1rem;
+    width: 35pt;
+    height: 35pt;
+    margin-top: 12.7rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.button-choose-icons-geometry{
+    z-index: 999;
+    position: fixed;
+    background-color: #fcfdfe;
+    padding: .5em;
+    border-top-left-radius: 25pt;
+    border-bottom-left-radius: 25pt;
+    color: #134985;
+    right: -.5rem;
+    width: 50pt;
+    height: 35pt;
+    margin-top: 13.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.layers-box-geometry{
+    z-index: 1000;
+    position: fixed;
+    right: 1rem;
+    margin-top: 13.3rem;
+    min-width: 50vw;
+    max-width: 50vw;
+    height: fit-content;
+    background-color: #fcfdfe;
+    padding: .5em;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.center-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.center-row-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.layers-box-content{
+    width: 100%;
+    overflow: hidden;
+    transition-duration: 3s;
+}
+.layers-box-content-left{
+    width: 50%;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #202021 ;
+}
+.layers-box-content-right{
+    width: 50%;
+    float: right;
+    border-left: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #202021 ;
+}
+
+.layers-box-content-right img ,.layers-box-content-left img{
+    width: 30pt;
+    border-radius: 5px;
+    margin-top: 1rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-layer{
+    right: 1rem;
+    margin-top: 1rem;
+}
+
+.button-layer-gray{
+    right: 1rem;
+    margin-top: 3rem;
+}
+
+.details-box-full{
+    transition-duration: 1s; 
+    width: 100%;
+    text-align: left;
+    font-size: small;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    overflow: scroll;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    background-color:#fcfdfe;
+    position: fixed;
+    z-index:1;
+    margin-top: -2rem;
+    min-height:  55vh;
+    z-index: 9999;
+    padding: 1rem;
+}
+
+.details-box strong{
+    font-size: medium;
+}
+.details-box span{
+    text-align: left;
+    float: left;
+    color: #202021;
+}
+
+
+.bottom-icon{
+    text-align: center;
+    width: 30pt;
+    height: 30pt;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fcfdfe;
+}
+
+
+.leaflet-tooltip.geometry-name{
+    border: 1px solid rebeccapurple;
+    background-color: #fcfdfe;
+    color: #202021; 
+    position: fixed;
+    font-weight: 600;
+    bottom: -12rem;
+    left: 14rem;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: .5px;
+    padding-bottom: .5px;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.leaflet-tooltip::before{
+    display: none;
+}
+.save-edit-geometry{
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+    padding: .5rem;
+    bottom: 0px;
+    height: 4rem;
+    background: rgb(255,255,255);
+    background: linear-gradient(to bottom, rgba(255,255,255,.1) 40%,  100%, rgba(0,0,0,1)0% );
+}
+
+.leaflet-tooltip.marker-place-name{
+    border: none;
+    background-color: rgba(255, 255, 255 ,0);
+    box-shadow: none; 
+    font-weight: 600;
+    bottom: -2.5rem;
+    left: .5rem;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: .2px;
+    padding-bottom: .5px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.leaflet-tooltip.marker-place-name  small{
+    /* -webkit-text-stroke:.8px #fff; */
+    font-size: .8em;
+    padding: 2px;
+    border-radius: 3px;
+    border: 1px solid rgb(145, 145, 145);
+    color: rgb(41, 41, 41);
+    background-color: white;
+    /* letter-spacing: -2px; */
+}
+.w-100{
+    width: 100%;
+}
+.select-icon{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    width: 100%;
+    
+    background-color: #d7e7f111;
+    background-color: rgb(240, 243, 245); 
+}

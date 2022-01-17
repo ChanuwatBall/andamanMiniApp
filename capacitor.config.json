@@ -1,0 +1,11 @@
+{
+	"appId": "at.andamantracking.dev",
+	"appName": "Andaman Tracking",
+	"versionCode": 20057 ,
+	"versionName": "2.0.5" ,
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "build",
+	"cordova": {}
+  }
+  

@@ -1,0 +1,9 @@
+{
+    "https" : "https://mobileapp-s1.andamantracking.dev" , 
+    "type": "app" ,
+    "version" : "2-1" ,
+    "platform": "2",
+    "authorization": "63e305ae68ef96ec05c595c7da9005b596af52ea5e42c278e558be28cbdbc10bd0b6c5e1b6aaf13d3c306ce33d6ae6e74bb372a41d6aa70702f4f124edcffaa9",
+    "path": "" , 
+    "apiTest": "http://103.7.57.141:8894"
+}
